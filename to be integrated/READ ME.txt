@@ -1,0 +1,46 @@
+CHDK Mac Installer (beta)
+July 11, 2009
+
+Use this script at your own risk.
+
+I wrote and tested this script on a standard installation of OS X 10.5.4 . I have no reason to believe it would not work on other versions, but keep in mind that this script is in the early stages of development. If you make changes, please send them to me so I can incorporate them into the app. 
+
+If you find a bug, please send me the resulting Event Log from the Script Editor window, and the text of any error messages so that I can trace the bug and fix it. (To generate an Event Log, you need to click that button in the Script Editor window and then rerun the script.) Thank you.
+
+---------------------------------------
+HOW-TO:
+
+To use this script you will need:
+¥ a card reader for your SD card, 
+¥ a copy of the appropriate CHDK autobuild from http://mighty-hoernsche.de/ . 
+
+Then just launch the script and direct it to the SD card and the autobuild archive eg.(a590-101b-0.9.3-688-full.zip). The script will take care of the rest.
+
+-----------------------------------------
+
+If you choose to move files manually, use this guide:
+The disks should now contain these files.
+
+1 Partition:
+	DISKBOOT.BIN
+	PS.FIR (this file is optional depending upon your camera model)
+	CHDK (this is a folder)
+	vers.req
+
+2 Partitions:
+CHDK:
+	DISKBOOT.BIN
+	PS.FIR (this file is optional depending upon your camera model)
+
+CANON: (or what ever the larger part is called)
+	CHDK (this is a folder)
+	vers.req
+
+--------------------------
+CREDITS:
+
+Thank you: Cathrine and Bob and everyone else for your generous help finding bugs and improving the script.
+
+owen.schoppe@gmail.com
+
+Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License
